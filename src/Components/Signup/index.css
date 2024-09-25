@@ -1,0 +1,82 @@
+/* src/Signup.css */  
+
+body {  
+            background: linear-gradient(135deg, #74ebd5, #9face6);  
+        }  
+        
+        .signup-container {  
+            background: linear-gradient(135deg, #74ebd5, #9face6);  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+        }  
+        
+        .form-wrapper {  
+            background-color: #ffffff;  
+            padding: 2rem;  
+            border-radius: 15px;  
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);  
+            width: 38vw;  
+        }  
+        
+        .form-title {  
+            text-align: center;  
+            color: #343a40;  
+            margin-bottom: 1.5rem;  
+        }  
+        
+        .input-group {  
+            margin-bottom: 1.5rem;  
+        }  
+        
+        .input-label {  
+            display: block;  
+            font-weight: bold;  
+            color: #495057;  
+            margin-bottom: 0.5rem;  
+        }  
+        
+        .input-field {  
+            width: 100%;  
+            padding: 0.75rem;  
+            border: 1px solid #ced4da;  
+            border-radius: 5px;  
+            transition: border-color 0.3s, box-shadow 0.3s;  
+        }  
+        
+        .input-field:focus {  
+            border-color: #007bff;  
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  
+            outline: none;  
+        }  
+        
+        .signup-button {  
+            width: 100%;  
+            padding: 0.75rem;  
+            background-color: #007bff;  
+            color: white;  
+            border: none;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            transition: background-color 0.3s;  
+        }  
+        
+        .signup-button:hover {  
+            background-color: #0056b3;  
+        }  
+        
+        .form-footer {  
+            text-align: center;  
+            margin-top: 1rem;  
+            color: #495057;  
+        }  
+        
+        .form-footer a {  
+            color: #007bff;  
+            text-decoration: none;  
+        }  
+        
+        .form-footer a:hover {  
+            text-decoration: underline;  
+        }
